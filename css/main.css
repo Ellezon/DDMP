@@ -1,0 +1,14 @@
+html{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* Carousel Styling */
+.carousel-cell{
+    width: 100%; 
+    height: 500px; 
+}
+.carousel-cell img{
+    width: 100%;
+}
