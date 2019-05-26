@@ -18,7 +18,7 @@
 
 <body>
 	<header >
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-brand" href="#">Navbar w/ text</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -31,13 +31,14 @@
 						'container'       => 'div',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'bs-example-navbar-collapse-1',
-						'menu_class'      => 'navbar-nav mr-auto',
+						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
 						'walker'          => new WP_Bootstrap_Navwalker(),
 					) );
 					?>
 				<div id="menu-search">
-					<?php get_search_form() ?>
+					<i class="fas fa-search"></i>
+					<div class="d-none"><?php get_search_form() ?></div>
 				</div>
 			</div>
 		</nav>

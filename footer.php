@@ -1,20 +1,10 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package DDMP
- */
-
-?>
-
 </div>
 </div>
-	<footer id="colophon" class="site-footer">
-	<footer>
+<footer class="d-flex justify-content-center">
+	<i class="fab fa-youtube"></i>
+	<i class="fab fa-facebook"></i>
+	<i class="fab fa-instagram"></i>
+<footer>
 <?php wp_footer(); ?>
 
 </body>

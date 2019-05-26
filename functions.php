@@ -11,6 +11,7 @@ function my_enqueue(){
     wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', false, false, false);
     wp_enqueue_style( 'flickity', 'https://unpkg.com/flickity@2.2.0/dist/flickity.min.css', false, false, false);
     wp_enqueue_style( 'main', get_template_directory_uri().'/css/main.css', false, false, false);
+    wp_enqueue_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.8.2/css/all.css', false, false, false );
 }
 add_action( 'wp_enqueue_scripts', 'my_enqueue' );
 
